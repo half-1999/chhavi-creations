@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover elegant handmade fashion by Chhavi's Creations. Browse our collection and order easily through WhatsApp." />
+  <meta property="og:title" content="Chhavi's Creations | Handmade Fashion with Love" />
+  <meta property="og:description" content="Thoughtfully handcrafted pieces designed for special moments." />
+  <meta property="og:image" content="assets/images/collection-1.png" />
+  <title>Chhavi's Creations | Handmade Fashion with Love</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Great+Vibes&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <div class="announcement">
+    <span>Handmade with love</span>
+    <span class="announcement-dot"></span>
+    <span>Prepaid orders only</span>
+  </div>
+
+  <div class="nav-sentinel" id="navSentinel" aria-hidden="true"></div>
+
+  <header class="site-header" id="header">
+    <div class="header-inner">
+      <a href="#home" class="brand" aria-label="Chhavi's Creations home">
+        <span class="brand-main">Chhavi's</span>
+        <span class="brand-sub">Creations</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#home" data-nav="home">Home</a>
+        <a href="#collection" data-nav="collection">Collection</a>
+        <a href="#about" data-nav="about">About</a>
+        <a href="#order" data-nav="order">How to Order</a>
+        <a href="#contact" data-nav="contact">Contact</a>
+      </nav>
+
+      <a class="header-cta desktop-only" href="#collection">
+        Shop Now
+        <span class="btn-icon" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+        </span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav aria-label="Mobile navigation">
+      <a href="#home">Home</a>
+      <a href="#collection">Collection</a>
+      <a href="#about">About</a>
+      <a href="#order">How to Order</a>
+      <a href="#contact">Contact</a>
+      <a class="header-cta mobile-cta" href="#collection">Shop Now</a>
+    </nav>
+  </div>
+  <div class="menu-backdrop" id="menuBackdrop" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">New collection</p>
+        <h1>Handmade pieces for moments that matter</h1>
+        <p class="hero-text">Two elegant styles, crafted with care. Browse the collection and order directly on WhatsApp.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#collection">
+            View Collection
+            <span class="btn-icon" aria-hidden="true">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+            </span>
+          </a>
+          <button class="btn btn-secondary" type="button" data-whatsapp="general">Message on WhatsApp</button>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" data-delay="120">
+        <div class="hero-frame">
+          <div class="hero-frame-inner">
+            <img src="assets/images/collection-1.png" alt="Chhavi's Creations handmade pink and white dresses" width="800" height="1000" fetchpriority="high" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-bar section-compact">
+      <ul class="trust-list">
+        <li>
+          <span class="trust-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 5.5-7 10-7 10z"/></svg>
+          </span>
+          <span>Handmade with love</span>
+        </li>
+        <li>
+          <span class="trust-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l2.4 7.4H22l-6 4.6 2.3 7L12 17l-6.3 4 2.3-7-6-4.6h7.6L12 2z"/></svg>
+          </span>
+          <span>Premium fabrics</span>
+        </li>
+        <li>
+          <span class="trust-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M3.3 7.7 12 12.5l8.7-4.8M12 22V12.5"/></svg>
+          </span>
+          <span>Safe packing</span>
+        </li>
+        <li>
+          <span class="trust-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </span>
+          <span>WhatsApp ordering</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="collection section" id="collection">
+      <div class="section-intro reveal">
+        <h2>Our latest creations</h2>
+        <p>Choose your favourite piece, pick a size, and send your order on WhatsApp. We confirm availability and payment details with you directly.</p>
+      </div>
+
+      <div class="products-grid" id="productsGrid"></div>
+    </section>
+
+    <section class="story section" aria-label="Collection showcase">
+      <div class="story-copy reveal">
+        <h2>Two styles, endless charm</h2>
+        <p>Every piece is thoughtfully designed and handmade for occasions that deserve something special.</p>
+      </div>
+      <div class="story-visual reveal" data-delay="100">
+        <div class="story-frame">
+          <img src="assets/images/collection-2.png" alt="Chhavi's Creations collection overview with pink and white dresses" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <section class="about section split-section" id="about">
+      <div class="split-image reveal">
+        <div class="split-frame">
+          <img src="assets/images/collection-5.png" alt="Chhavi's Creations pink and white handmade dresses on display" loading="lazy" />
+        </div>
+      </div>
+      <div class="split-copy reveal" data-delay="120">
+        <h2>More than just a creation</h2>
+        <p>At Chhavi's Creations, every piece starts as an idea and is brought to life with creativity, care, and attention to detail.</p>
+        <p>Fashion should feel personal and beautiful. That is why each order is handled individually, from crafting to packing.</p>
+        <a href="#collection" class="text-link">
+          Browse the collection
+          <span aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <section class="why section" id="why-us">
+      <div class="section-intro center reveal">
+        <h2>Created with care</h2>
+        <p>What makes every Chhavi's Creations piece feel special.</p>
+      </div>
+      <div class="features">
+        <article class="feature-card reveal">
+          <span class="feature-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 5.5-7 10-7 10z"/></svg>
+          </span>
+          <h3>Handmade with love</h3>
+          <p>Every stitch and detail is done by hand with patience and passion.</p>
+        </article>
+        <article class="feature-card reveal" data-delay="80">
+          <span class="feature-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l2.4 7.4H22l-6 4.6 2.3 7L12 17l-6.3 4 2.3-7-6-4.6h7.6L12 2z"/></svg>
+          </span>
+          <h3>Thoughtful details</h3>
+          <p>Embroidery, fabric choice, and finishing that elevate every outfit.</p>
+        </article>
+        <article class="feature-card reveal" data-delay="160">
+          <span class="feature-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 12V8H6a2 2 0 0 1-2-2V4"/><path d="M4 6v12a2 2 0 0 0 2 2h14v-4"/><path d="M18 12a2 2 0 0 0 0 4h4v-4Z"/></svg>
+          </span>
+          <h3>Prepaid orders</h3>
+          <p>Orders are confirmed after payment for a smooth, secure process.</p>
+        </article>
+        <article class="feature-card reveal" data-delay="240">
+          <span class="feature-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          </span>
+          <h3>Careful packing</h3>
+          <p>Each order is packed with care so your piece arrives safely.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="how section" id="order">
+      <div class="section-intro center reveal">
+        <h2>How to order</h2>
+        <p>Three simple steps from browsing to confirmation.</p>
+      </div>
+      <div class="steps">
+        <article class="step-card reveal">
+          <div class="step-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          </div>
+          <h3>Choose your piece</h3>
+          <p>Browse the collection and open the product you love.</p>
+        </article>
+        <article class="step-card reveal" data-delay="100">
+          <div class="step-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3>Message on WhatsApp</h3>
+          <p>Select your size and send your order details directly to us.</p>
+        </article>
+        <article class="step-card reveal" data-delay="200">
+          <div class="step-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4 12 14.01l-3-3"/></svg>
+          </div>
+          <h3>Confirm and pay</h3>
+          <p>We share availability and payment details to confirm your prepaid order.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery section" aria-label="Product gallery">
+      <div class="gallery-head reveal">
+        <div>
+          <h2>See the collection</h2>
+          <p>Tap any image to view it full size.</p>
+        </div>
+        <a class="btn btn-outline" href="https://www.instagram.com/chhaviscreations9/" target="_blank" rel="noopener">
+          Follow on Instagram
+          <span class="btn-icon" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </span>
+        </a>
+      </div>
+      <div class="gallery-grid">
+        <button class="gallery-item reveal" type="button" data-lightbox="assets/images/collection-3.png" data-caption="Pretty in Pink">
+          <img src="assets/images/collection-3.png" alt="Pretty in Pink handmade dress" loading="lazy" />
+        </button>
+        <button class="gallery-item reveal" type="button" data-delay="60" data-lightbox="assets/images/collection-4.png" data-caption="Grace in White">
+          <img src="assets/images/collection-4.png" alt="Grace in White handmade dress" loading="lazy" />
+        </button>
+        <button class="gallery-item wide reveal" type="button" data-delay="120" data-lightbox="assets/images/collection-1.png" data-caption="Chhavi's Creations collection">
+          <img src="assets/images/collection-1.png" alt="Chhavi's Creations full collection" loading="lazy" />
+        </button>
+        <button class="gallery-item reveal" type="button" data-delay="180" data-lightbox="assets/images/collection-5.png" data-caption="New arrivals">
+          <img src="assets/images/collection-5.png" alt="New handmade creations on display" loading="lazy" />
+        </button>
+        <button class="gallery-item tall reveal" type="button" data-delay="240" data-lightbox="assets/images/collection-2.png" data-caption="Collection story">
+          <img src="assets/images/collection-2.png" alt="Chhavi's Creations collection story" loading="lazy" />
+        </button>
+      </div>
+    </section>
+
+    <section class="faq section">
+      <div class="section-intro center reveal">
+        <h2>Questions answered</h2>
+      </div>
+      <div class="faq-list reveal" data-delay="80">
+        <details>
+          <summary>How do I place an order?<span class="faq-toggle" aria-hidden="true"></span></summary>
+          <p>Select your favourite piece, choose a size, and tap Order on WhatsApp. We reply with availability and payment details.</p>
+        </details>
+        <details>
+          <summary>Are orders prepaid?<span class="faq-toggle" aria-hidden="true"></span></summary>
+          <p>Yes. Your order is confirmed once payment is complete.</p>
+        </details>
+        <details>
+          <summary>How do I check availability?<span class="faq-toggle" aria-hidden="true"></span></summary>
+          <p>Send us the product name or product code on WhatsApp and we will confirm stock for you.</p>
+        </details>
+        <details>
+          <summary>Can I ask before ordering?<span class="faq-toggle" aria-hidden="true"></span></summary>
+          <p>Of course. Message us on WhatsApp or Instagram anytime.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="final-cta" id="contact">
+      <div class="final-cta-inner reveal">
+        <h2>Ready to order?</h2>
+        <p>Browse the collection or message us directly. We are happy to help you find the perfect piece.</p>
+        <div class="hero-actions">
+          <a class="btn btn-light" href="#collection">View Collection</a>
+          <button class="btn btn-outline-light" type="button" data-whatsapp="general">Message on WhatsApp</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <div>
+        <a href="#home" class="brand footer-brand" aria-label="Chhavi's Creations home">
+          <span class="brand-main">Chhavi's</span>
+          <span class="brand-sub">Creations</span>
+        </a>
+        <p class="footer-tagline">Handmade with love</p>
+      </div>
+      <div class="footer-links">
+        <a href="#collection">Collection</a>
+        <a href="#order">How to Order</a>
+        <a href="https://www.instagram.com/chhaviscreations9/" target="_blank" rel="noopener">Instagram</a>
+        <button type="button" data-whatsapp="general">WhatsApp</button>
+      </div>
+    </div>
+    <p class="copyright">2026 Chhavi's Creations. All rights reserved.</p>
+  </footer>
+
+  <button class="whatsapp-float" type="button" data-whatsapp="general" aria-label="Chat on WhatsApp">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+    <span class="whatsapp-tooltip">Chat with us</span>
+  </button>
+
+  <div class="modal" id="productModal" aria-hidden="true">
+    <div class="modal-overlay" data-close-modal></div>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close product details">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+      <div class="modal-image-wrap">
+        <img id="modalImage" src="" alt="">
+      </div>
+      <div class="modal-content">
+        <p class="modal-label" id="modalTag"></p>
+        <h2 id="modalTitle"></h2>
+        <p class="modal-note" id="modalNote"></p>
+        <p id="modalDescription"></p>
+        <div class="occasions" id="modalOccasions"></div>
+        <div class="size-group">
+          <span>Choose your size</span>
+          <div class="size-options" id="sizeOptions"></div>
+          <p class="field-error" id="sizeError" hidden>Please select a size before ordering.</p>
+        </div>
+        <div class="quantity-row">
+          <span>Quantity</span>
+          <div class="quantity-control">
+            <button type="button" id="minusQty" aria-label="Decrease quantity">-</button>
+            <strong id="qtyValue" aria-live="polite">1</strong>
+            <button type="button" id="plusQty" aria-label="Increase quantity">+</button>
+          </div>
+        </div>
+        <p class="product-code" id="modalCode"></p>
+        <button class="btn btn-primary full" type="button" id="modalOrderBtn">
+          Order on WhatsApp
+          <span class="btn-icon" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-overlay" data-close-lightbox></div>
+    <figure class="lightbox-content">
+      <button class="lightbox-close" type="button" data-close-lightbox aria-label="Close image">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+      <img id="lightboxImage" src="" alt="">
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
