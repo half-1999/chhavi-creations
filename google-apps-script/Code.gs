@@ -11,6 +11,8 @@
  * Copy the /exec URL into script.js as GOOGLE_SCRIPT_URL
  */
 
+ SPREADSHEET_LINK : https://docs.google.com/spreadsheets/d/1ma9WiOpXRzkGtKaJrDcq0Mr316f94XzDcVbKV1QKtw0/edit?gid=0#gid=0
+
 const SPREADSHEET_ID = "1ma9WiOpXRzkGtKaJrDcq0Mr316f94XzDcVbKV1QKtw0";
 
 const HEADERS = {
